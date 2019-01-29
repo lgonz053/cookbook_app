@@ -26,7 +26,9 @@ class Api::RecipesController < ApplicationController
   end
 
   def show
+    @current_user = current_user
     recipe_id = params[:id]
+
     @recipe = Recipe.find(recipe_id)
     render 'show.json.jbuilder'
   end
