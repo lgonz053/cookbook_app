@@ -2,6 +2,8 @@ json.id recipe.id
 json.title recipe.title
 json.chef recipe.chef
 json.image_url recipe.image_url
+json.ingredients recipe.ingredients
+json.directions recipe.directions
 
 json.formatted do
   json.created_at recipe.friendly_created_at
