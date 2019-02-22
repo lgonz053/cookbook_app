@@ -1,4 +1,10 @@
 class Recipe < ApplicationRecord
+   validates :title, presence: true
+   validates :prep_time, presence: true
+   validates :prep_time, numericality: {only_integer: true, greater_than: 0}
+   validates :ingredients, presence: true
+   validates :directions, presence: true
+   
   def ingredients_list
     ingredients.split(", ")
   end
@@ -28,6 +34,5 @@ class Recipe < ApplicationRecord
     time_message += "#{hours} #{'Hour'.pluralize(hours)}" if hours > 0
     time_message += ", " if hours > 0 && minutes > 0
     time_message += "#{minutes} #{"Minute".pluralize(minutes)}" if minutes > 0
-    time_message
   end
 end
