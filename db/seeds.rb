@@ -1,7 +1,6 @@
 Recipe.create!([
-  {title: "Raw Egg", chef: "Bad Josh", ingredients: "live chicken, pair of gloves", directions: "place gloves on hands, grip chickens body, squeeze gently", image_url: nil, prep_time: 5},
-  {title: "Hand Sandwich", chef: "Josh", ingredients: "left hand, right hand, lettuce, mayo, avocado", directions: "place left palm up, lay other ingredients on top, finish with right, place hands together, goodnight, Wisconsin!", image_url: nil, prep_time: 15},
-  {title: "Cookies", chef: "Cookie Monster", ingredients: "cookie mix, milk, eggs, love", directions: "cookie, cookie, cookie, darn, should have bought eggs", image_url: nil, prep_time: 380},
-  {title: "ABC Gum", chef: "McGruff the Crime Dog", ingredients: "gum, loafer", directions: "remove gum from shoe, and chew", image_url: nil, prep_time: 30},
-  {title: "Lagsana", chef: "Garfield", ingredients: "tire, old shoe, peppermint toothpaste, noodles", directions: "pile ingredients into pan, heat to 350 degress, wait for fire alarm", image_url: nil, prep_time: 400}
+  {title: "Ratatouille", chef: "Remy", ingredients: "Josh [11:35 AM] 1 Large Zucchini, 1 Large Yellow Summer Squash, 2 Small Eggplants, 1 Red Bell Pepper, 1/2 Small Yellow Onion, 2 Garlic Cloves, 15 oz. can Crushed Tomatoes, Fresh Thyme, 1 tsp Salt", directions: "Mix them", image_url: "https://media.chefdehome.com/740/0/0/ratatouille/ratatouille-casserole.jpg", prep_time: 43},
+  {title: "Cookies", chef: "Cookie Monster", ingredients: "cookie mix, milk, eggs, love", directions: "cookie, cookie, cookie, darn, should have bought eggs", image_url: "http://myfrugaladventures.com/wp-content/uploads/2017/07/Momofuku-cookie-recipe.jpg", prep_time: 380},
+  {title: "Refried beans", chef: "Pancho Villa", ingredients: "beans, fire, oil", directions: "out of the can in to the hand", image_url: "https://www.simplyrecipes.com/wp-content/uploads/2005/12/refried-beans-vertical-a-1600.jpg", prep_time: 1},
+  {title: "Chilaquiles", chef: "Mom", ingredients: "Tortillas, oil, hot sauce", directions: "Fry tortillas, hot sauce", image_url: "https://www.onionringsandthings.com/wp-content/uploads/2018/02/chilaquiles-with-salsa-verde-2A.jpg", prep_time: 35}
 ])
